@@ -17,7 +17,7 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="/vercel.svg"
+              src="/comeback_basketball_icon.png"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
@@ -90,6 +90,15 @@ export default function Home() {
             Explore starter templates for Next.js.
           </p>
         </a>
+
+        <Image
+              src="/comeback_basketball_icon.png"
+              alt="Vercel Logo"
+              className="dark:invert"
+              width={100}
+              height={24}
+              priority
+            />
 
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
